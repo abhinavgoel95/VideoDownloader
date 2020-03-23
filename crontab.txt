@@ -1,0 +1,1 @@
+10 */2 * * * cd /home/goel39/covid19/data && bash downloader.sh >> /home/goel39/covid19/data/log.txt 2>&1
