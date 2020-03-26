@@ -17,6 +17,7 @@ downloader.sh is the script that downloads a 1-minute long video from each link 
 #### For example:
 
 ```
+  bash downloader.sh 0 8
   bash downloader.sh 1 8
   bash downloader.sh 2 8
   bash downloader.sh 3 8
