@@ -1,0 +1,4 @@
+downloaded-videos/
+*.error
+*.output
+*.cobaltlog
