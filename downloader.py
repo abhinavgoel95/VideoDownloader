@@ -4,6 +4,7 @@ import sys
 import datetime
 from subprocess import call
 import argparse
+from pathlib import Path
 
 parser = argparse.ArgumentParser(description='Covid19 video downloader')
 parser.add_argument('--part-number', dest='M', type = int,
@@ -18,6 +19,10 @@ parser.add_argument('--download-to', dest='path',
                     default='.',
                     help='download path')
 
+parser.add_argument('--remove-failed', dest='remove',
+                    default=True,
+                    help='delete failed downloads')
+
 args = parser.parse_args()
 print(args)
 
@@ -29,6 +34,7 @@ with open('streamlink_master_list.txt') as f:
 
 id_map = dict(zip(ids, links))
 
+errorfile = open('errorfile.txt', 'a+')
 
 index = args.M
 while index < len(ids):
@@ -39,5 +45,17 @@ while index < len(ids):
         except FileExistsError:
             pass    
         now = datetime.datetime.now().strftime('%Y-%m-%d_%H_%M_%S')
-        call("timeout -sHUP 10s streamlink \""+id_map[key]+"\" best -o "+args.path+"/"+key+"/"+now+".mp4", shell = True)
+        call("timeout -sHUP 60s streamlink \""+id_map[key]+"\" best -o "+args.path+"/"+key+"/"+now+".mp4", shell = True)
+        if args.remove:
+            try:
+                filesize = Path(args.path+"/"+key+"/"+now+".mp4").stat().st_size
+                if filesize == 0:
+                    print(args.path+"/"+key+"/"+now+".mp4:", "File size 0. File deleted.", file = errorfile)
+                    os.unlink(args.path+"/"+key+"/"+now+".mp4")
+            except:
+                print(args.path+"/"+key+"/"+now+".mp4:", "File not downloaded.", file = errorfile)
+                if os.path.exists(args.path+"/"+key) and os.path.isdir(args.path+"/"+key):
+                    if not os.listdir(args.path+"/"+key):
+                        os.rmdir(args.path+'/'+key)
+
         index += args.N
