@@ -36,9 +36,11 @@ usage: downloader.py [-h] [--part-number M] [--number-of-parts N]
 
 Covid19 video downloader
 
+```
 optional arguments:
   -h, --help              show this help message and exit
   --part-number M         part number (M)
   --number-of-parts N     number of parts (N)
   --download-to PATH      download path
   --remove-failed REMOVE  delete failed downloads
+```
