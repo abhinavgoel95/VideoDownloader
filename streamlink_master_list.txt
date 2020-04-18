@@ -6,8 +6,8 @@ https://www.youtube.com/watch?v=4hScXCVm-cw
 https://www.youtube.com/watch?v=k-IwplSPNTE
 https://www.youtube.com/watch?v=qDsecXnhD2I
 https://www.youtube.com/watch?v=4PFOJf32dos
-https://videos-3.earthcam.com/fecnetwork/5868.flv/chunklist_w108252458.m3u8?__fvd__
-https://videos-3.earthcam.com/fecnetwork/6405.flv/chunklist_w2052599227.m3u8?__fvd__
+https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/5868.flv/chunklist.m3u8
+https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/6405.flv/chunklist.m3u8
 https://www.youtube.com/watch?v=WOxw55CBwL4
 https://www.windy.com/-Webcams/China/Sichuan/Shiban-tan/Chengdu/webcams/1579778267?34.053,103.491,5
 https://www.youtube.com/watch?v=Tf-4zQADLS8
@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=Cf78YAVZ1qc
 https://www.youtube.com/watch?v=-53eP7Trb9k
 https://www.youtube.com/watch?v=0OxrwzAuW1Q
 https://www.youtube.com/watch?v=S3PGA6PNeiA
-https://videos-3.earthcam.com/fecnetwork/philippinesHD1.flv/chunklist_w376618451.m3u8?__fvd__
+https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/philippinesHD1.flv/chunklist.m3u8
 https://hddn01.skylinewebcams.com/live.m3u8?a=bh0l1il79ul4fpi746did5ujc7
 https://hddn01.skylinewebcams.com/live.m3u8?a=bh0l1il79ul4fpi746did5ujc7
 https://hddn01.skylinewebcams.com/live.m3u8?a=bh0l1il79ul4fpi746did5ujc7
@@ -42,8 +42,8 @@ https://hddn01.skylinewebcams.com/live.m3u8?a=bh0l1il79ul4fpi746did5ujc7
 https://hddn01.skylinewebcams.com/live.m3u8?a=bh0l1il79ul4fpi746did5ujc7
 https://hddn01.skylinewebcams.com/live.m3u8?a=bh0l1il79ul4fpi746did5ujc7
 https://hddn01.skylinewebcams.com/live.m3u8?a=bh0l1il79ul4fpi746did5ujc7
-https://videos-3.earthcam.com/fecnetwork/lacitytours1.flv/chunklist_w227585416.m3u8?__fvd__
-https://videos-3.earthcam.com/fecnetwork/17728.flv/chunklist_w1785288908.m3u8?__fvd__
+https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/lacitytours1.flv/chunklist.m3u8
+https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/17728.flv/chunklist.m3u8
 https://www.tripcheck.com/Pages/Custom-Cameras
 https://www.weatherbug.com/weather-camera/fresno-ca-93703
 https://hddn01.skylinewebcams.com/live.m3u8?a=bh0l1il79ul4fpi746did5ujc7
@@ -66,7 +66,7 @@ https://www.youtube.com/watch?v=8Et-HSrd9WI&feature=youtu.be
 https://usa302.extcam.com/hls/playlist.m3u8?hlsId=edb6dd84611c409d8b2134d5be443b94_200001213429_0&token=3701d01a27959111065f57bb059bf536
 https://www.youtube.com/watch?v=YmzZg_V5_pM
 https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/4054.flv/chunklist.m3u8
-https://videos-3.earthcam.com/fecnetwork/17728.flv/chunklist_w392048117.m3u8?__fvd__
+https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/17728.flv/chunklist.m3u8
 https://hddn01.skylinewebcams.com/live.m3u8?a=bh0l1il79ul4fpi746did5ujc7
 https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/4054.flv/chunklist.m3u8
 https://hddn01.skylinewebcams.com/live.m3u8?a=bh0l1il79ul4fpi746did5ujc7
@@ -74,10 +74,10 @@ https://hddn01.skylinewebcams.com/live.m3u8?a=bh0l1il79ul4fpi746did5ujc7
 https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/9974.flv/chunklist.m3u8
 https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/hdtimes10.flv/chunklist.m3u8
 https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/15559.flv/chunklist.m3u8
-https://videos-3.earthcam.com/fecnetwork/5173.flv/chunklist_w2070251896.m3u8?__fvd__
-https://videos-3.earthcam.com/fecnetwork/14013.flv/chunklist_w192058547.m3u8?__fvd__
-https://videos-3.earthcam.com/fecnetwork/17512.flv/chunklist_w2023343044.m3u8?__fvd__
-https://videos-3.earthcam.com/fecnetwork/4135.flv/chunklist_w1457136098.m3u8?__fvd__
+https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/5173.flv/chunklist.m3u8
+https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/14013.flv/chunklist.m3u8
+https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/17512.flv/chunklist.m3u8
+https://d3o4twxzdiwvsf.cloudfront.net/fecnetwork/4135.flv/chunklist.m3u8
 https://hddn01.skylinewebcams.com/live.m3u8?a=bh0l1il79ul4fpi746did5ujc7
 https://www.livebeaches.com/webcams/rehoboth-beach-boardwalk-webcam/
 https://www.livebeaches.com/webcams/watermans-webcam-on-virginia-beach-boardwalk/
