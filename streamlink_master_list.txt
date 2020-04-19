@@ -506,3 +506,10 @@ https://www.earthcam.com/usa/louisiana/neworleans/bourbonstreet/?cam=bourbonstre
 https://www.earthcam.com/usa/dc/?cam=dc_kennedycenter
 https://www.earthcam.com/usa/washington/seattle/?cam=seattlespaceneedle
 https://www.earthcam.com/usa/washington/seattle/?cam=seattledowntown
+https://wms-prod-2.wetmet.net/live/142-01-01/playlist.m3u8
+https://wms-prod-2.wetmet.net/live/142-09-01/playlist.m3u8
+https://wms-prod-2.wetmet.net/live/142-07-01/playlist.m3u8
+https://wms-prod-2.wetmet.net/live/142-05-01/playlist.m3u8
+https://wms-prod-2.wetmet.net/live/142-02-01/playlist.m3u8
+https://wms-prod-2.wetmet.net/live/142-08-01/playlist.m3u8
+https://55507e0501d25.streamlock.net/live/staugustine.stream/chunklist_w1726582816.m3u8?__fvd__
