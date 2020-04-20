@@ -29,7 +29,7 @@ downloader.sh is the script that downloads a 1-minute long video from each link 
 
 #### To run:
 ```
-  python3 download.py --part-number 0 --number-of-parts 8 --download-to path/to/dir --remove-failed True
+  python3 downloader_json.py --part-number 0 --number-of-parts 8 --download-to path/to/dir --remove-failed True
 ```
 usage: ```downloader_json.py [-h] [--part-number M] [--number-of-parts N]
                      [--download-to PATH] [--remove-failed REMOVE]```
