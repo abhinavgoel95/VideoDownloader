@@ -52,7 +52,7 @@ while index < len(ids):
         
         success = False
         for i in range(args.tries):
-            returnval = call("timeout -sHUP 5s streamlink \""+id_map[key]+"\" best -o "+args.path+"/"+key+"/"+now+".mp4", shell = True)
+            returnval = call("timeout -sHUP 60s streamlink \""+id_map[key]+"\" best -o "+args.path+"/"+key+"/"+now+".mp4", shell = True)
 
             if args.remove:
                 try:
