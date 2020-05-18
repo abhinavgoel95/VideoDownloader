@@ -44,3 +44,12 @@ optional arguments:
   --download-to PATH      download path
   --remove-failed REMOVE  delete failed downloads
 ```
+
+
+### UPDATE: v2 tries multiple times before moving on to another link
+```
+  python3 downloader_json_v2.py --part-number 0 --number-of-parts 8 --download-to path/to/dir --remove-failed True --num-tries 10
+```
+usage: ```downloader_json.py [-h] [--part-number M] [--number-of-parts N]
+                     [--download-to PATH] [--remove-failed REMOVE] [--num-tries N]```
+
