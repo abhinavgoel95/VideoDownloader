@@ -40,7 +40,7 @@ print(json.dumps(id_map, indent=2))
 index = args.M
 while index < len(ids):
         key = ids[index]
-        print(index+1, key)
+        print("Camera # ", index+1, key)
         try:
             os.makedirs(args.path+'/'+key)
         except FileExistsError:
@@ -80,3 +80,7 @@ while index < len(ids):
             time.sleep(2)
 
         index += args.N
+
+# If this line doesn't show in the output, we are not processing all of the cameras (and need to increase job time)
+print("all cameras processed")
+
