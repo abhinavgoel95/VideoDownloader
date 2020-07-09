@@ -24,7 +24,7 @@ parser.add_argument('--remove-failed', dest='remove',
                     default=True,
                     help='delete failed downloads')
 
-parser.add_argument('--num_tries', dest='tries', default=10, type=int, help='number of tries to retry download if file size 0 or not downloaded')
+parser.add_argument('--num_tries', dest='tries', default=3, type=int, help='number of tries to retry download if file size 0 or not downloaded')
 
 args = parser.parse_args()
 print(args)
