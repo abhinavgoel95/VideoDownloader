@@ -24,7 +24,7 @@ parser.add_argument('--remove-failed', dest='remove',
                     default=True,
                     help='delete failed downloads')
 
-parser.add_argument('--num_tries', dest='tries', default=3, type=int, help='number of tries to retry download if file size 0 or not downloaded')
+parser.add_argument('--num_tries', dest='tries', default=1, type=int, help='number of tries to retry download if file size 0 or not downloaded')
 
 args = parser.parse_args()
 print(args)
@@ -51,10 +51,15 @@ while index < len(ids):
         success = False
         for i in range(args.tries):
             if 'skyline' in id_map[key]:
-                print('skyline')
-                returnval = call("ffmpeg $(youtube-dl -g \""+id_map[key]+"\" | sed \"s/.*/-i &/\") -t 60 -strict -2 -c copy "+args.path+"/"+key+"/"+now+".mp4", shell=True)
+                print('skyline camera')
+                command="ffmpeg $(youtube-dl -g \""+id_map[key]+"\" | sed \"s/.*/-i &/\") -t 60 -strict -2 -c copy "+args.path+"/"+key+"/"+now+".mp4"
+                print("Running", command)
+                returnval = call(command, shell=True)
             else:
-                returnval = call("timeout -sHUP 60s streamlink \""+id_map[key]+"\" best -o "+args.path+"/"+key+"/"+now+".mp4", shell = True)
+                print('non-skyline camera')
+                command="timeout -sHUP 60s streamlink \""+id_map[key]+"\" best -o "+args.path+"/"+key+"/"+now+".mp4"
+                print("Running", command)
+                returnval = call(command, shell = True)
 
             if args.remove:
                 try:
