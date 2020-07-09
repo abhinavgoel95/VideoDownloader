@@ -37,8 +37,6 @@ ids= list(id_map.keys())
 
 print(json.dumps(id_map, indent=2))
 
-errorfile = open('errorfile.txt', 'a+')
-
 index = args.M
 while index < len(ids):
         key = ids[index]
@@ -64,7 +62,7 @@ while index < len(ids):
                     if filesize == 0:
                         print('empty')
                         print('returnval', returnval)
-                        print(args.path+"/"+key+"/"+now+".mp4:", "File size 0. File deleted.", file = errorfile)
+                        print(args.path+"/"+key+"/"+now+".mp4:", "File size 0. File deleted.")
                         os.unlink(args.path+"/"+key+"/"+now+".mp4")
                     else:
                         print("success")
@@ -73,7 +71,7 @@ while index < len(ids):
                 except:
                     print('failed to download')
                     print('returnval', returnval)
-                    print(args.path+"/"+key+"/"+now+".mp4:", "File not downloaded.", file = errorfile)
+                    print(args.path+"/"+key+"/"+now+".mp4:", "File not downloaded.")
                     if os.path.exists(args.path+"/"+key) and os.path.isdir(args.path+"/"+key):
                         if not os.listdir(args.path+"/"+key):
                             os.rmdir(args.path+'/'+key)

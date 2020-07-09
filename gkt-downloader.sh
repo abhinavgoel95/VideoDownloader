@@ -18,4 +18,4 @@ part=$1
 num_parts=$2
 download_to=/projects/SE_HPC/downloaded-videos
 
-python3 downloader_json.py --download-to "$download_to" --number-of-parts "$num_parts" --part-number "$part"
+python3 downloader_json_v2.py --download-to "$download_to" --number-of-parts "$num_parts" --part-number "$part"
